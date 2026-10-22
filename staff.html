@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Staff sign in · KITS Exam Monitor</title>
+  <style>
+    :root { --navy: #0b2c58; --navy-2: #233c79; --crimson: #bc2025; --gold: #c9a227; --text: #17223b; --muted: #5b6782; --line: #dde3ee; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6fa; color: var(--text); line-height: 1.45; }
+    .topbar { background: var(--navy); color: #fff; display: flex; align-items: center; gap: 10px; padding: 0 20px; height: 56px; border-bottom: 3px solid var(--gold); font-weight: 700; }
+    .logo { width: 36px; height: 36px; border-radius: 50%; background: var(--gold); color: var(--navy); display: grid; place-items: center; font-weight: 800; font-size: 10px; flex: none; }
+    .topbar small { display: block; font-weight: 400; font-size: 11px; opacity: .8; }
+    .card { max-width: 520px; margin: 40px auto; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--navy-2); border-radius: 10px; padding: 28px; box-shadow: 0 4px 16px rgba(11,44,88,.06); }
+    .head { display: flex; gap: 14px; align-items: center; margin-bottom: 18px; }
+    .head .logo { width: 52px; height: 52px; font-size: 13px; }
+    h1 { margin: 0; font-size: 22px; } .muted { color: var(--muted); font-size: 13px; }
+    .btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 14px; border-radius: 10px; font-size: 17px; font-weight: 700; text-decoration: none; background: #fff; color: #1f1f1f; border: 1px solid #c6cfde; }
+    .btn:hover { border-color: var(--navy-2); background: #f7f9fd; }
+    .btn .g { font-weight: 800; font-size: 20px; color: #4285f4; }
+    .tips { margin-top: 16px; background: #fff8e6; border: 1px solid #f0d79a; border-radius: 8px; padding: 12px 14px; font-size: 14px; }
+    .tips ol { margin: 6px 0 0 18px; padding: 0; } .tips li { margin-bottom: 4px; }
+    .alt { text-align: center; margin-top: 16px; font-size: 13px; } a { color: var(--navy-2); }
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="logo">KITS</div><div>Practical Exam Monitor<small>Staff / Invigilator</small></div></header>
+  <main class="card">
+    <div class="head"><div class="logo">KITS</div><div><h1>Staff sign in</h1><div class="muted">Practical Exam Monitor · Karunya Institute of Technology and Sciences</div></div></div>
+    <a class="btn" href="https://script.google.com/macros/s/AKfycbwmLGZkoJKR8vxJXIRS4cpHQkcwJ9b9HrnAriU8kQEDRlkUdPobxkZvYSmh08CAp-9x/exec"><span class="g">G</span> Sign in with your karunya.edu account</a>
+    <div class="tips">
+      <b>Before you sign in</b>
+      <ol>
+        <li>Open this page in a <b>private window</b>: <b>Chrome → Incognito</b> (Ctrl+Shift+N), <b>Edge → InPrivate</b> (Ctrl+Shift+N) or <b>Firefox → Private window</b> (Ctrl+Shift+P).</li>
+        <li>Sign in <b>only</b> with your <b>@karunya.edu</b> staff account. Student accounts (@karunya.edu.in) cannot open the staff pages.</li>
+        <li>If you see "Sorry, unable to open the file", another Google account is signed in: close the window and start again in a new private window.</li>
+      </ol>
+    </div>
+    <p class="alt">Student? <a href="./">Student sign in →</a></p>
+  </main>
+</body>
+</html>
